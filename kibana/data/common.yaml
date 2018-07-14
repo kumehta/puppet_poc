@@ -1,0 +1,9 @@
+---
+profile::kibana::ensure:                present
+profile::kibana::config:                {}
+profile::kibana::manage_repo:           true
+profile::kibana::oss:                   false
+profile::kibana::package_source:        ~
+profile::kibana::status:                enabled
+profile::kibana::owner:                 kibana
+profile::kibana::group:                 kibana
